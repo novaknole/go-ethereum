@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/novaknole/go-ethereum/common/mclock"
+	"github.com/novaknole/go-ethereum/log"
+	"github.com/novaknole/go-ethereum/p2p/enode"
+	"github.com/novaknole/go-ethereum/p2p/netutil"
 )
 
 const (
@@ -336,7 +336,7 @@ func (d *dialScheduler) logStats() {
 		return
 	}
 	if d.dialPeers < dialStatsPeerLimit && d.dialPeers < d.maxDialPeers {
-		d.log.Info("Looking for peers", "peercount", len(d.peers), "tried", d.doneSinceLastLog, "static", len(d.static))
+		d.log.Info("Looking for peers 123123123", "peercount", len(d.peers), "tried", d.doneSinceLastLog, "static", len(d.static))
 	}
 	d.doneSinceLastLog = 0
 	d.lastStatsLog = now

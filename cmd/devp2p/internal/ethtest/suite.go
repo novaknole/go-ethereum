@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/novaknole/go-ethereum/core/types"
+	"github.com/novaknole/go-ethereum/crypto"
+	"github.com/novaknole/go-ethereum/internal/utesting"
+	"github.com/novaknole/go-ethereum/p2p"
+	"github.com/novaknole/go-ethereum/p2p/enode"
+	"github.com/novaknole/go-ethereum/p2p/rlpx"
 	"github.com/stretchr/testify/assert"
 )
 

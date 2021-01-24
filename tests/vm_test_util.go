@@ -22,19 +22,19 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/novaknole/go-ethereum/common"
+	"github.com/novaknole/go-ethereum/common/hexutil"
+	"github.com/novaknole/go-ethereum/common/math"
+	"github.com/novaknole/go-ethereum/core"
+	"github.com/novaknole/go-ethereum/core/rawdb"
+	"github.com/novaknole/go-ethereum/core/state"
+	"github.com/novaknole/go-ethereum/core/vm"
+	"github.com/novaknole/go-ethereum/crypto"
+	"github.com/novaknole/go-ethereum/params"
 )
 
 // VMTest checks EVM execution without block or transaction context.
-// See https://github.com/ethereum/tests/wiki/VM-Tests for the test format specification.
+// See https://github.com/novaknole/tests/wiki/VM-Tests for the test format specification.
 type VMTest struct {
 	json vmJSON
 }

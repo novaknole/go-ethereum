@@ -22,11 +22,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/novaknole/go-ethereum/common"
+	"github.com/novaknole/go-ethereum/core/types"
+	"github.com/novaknole/go-ethereum/ethdb"
+	"github.com/novaknole/go-ethereum/log"
+	"github.com/novaknole/go-ethereum/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

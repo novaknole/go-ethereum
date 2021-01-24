@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/novaknole/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/novaknole/go-ethereum/common"
+	"github.com/novaknole/go-ethereum/crypto"
+	"github.com/novaknole/go-ethereum/p2p/discover"
+	"github.com/novaknole/go-ethereum/p2p/enode"
+	"github.com/novaknole/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

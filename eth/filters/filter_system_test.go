@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/novaknole/go-ethereum"
+	"github.com/novaknole/go-ethereum/common"
+	"github.com/novaknole/go-ethereum/consensus/ethash"
+	"github.com/novaknole/go-ethereum/core"
+	"github.com/novaknole/go-ethereum/core/bloombits"
+	"github.com/novaknole/go-ethereum/core/rawdb"
+	"github.com/novaknole/go-ethereum/core/types"
+	"github.com/novaknole/go-ethereum/ethdb"
+	"github.com/novaknole/go-ethereum/event"
+	"github.com/novaknole/go-ethereum/params"
+	"github.com/novaknole/go-ethereum/rpc"
 )
 
 var (

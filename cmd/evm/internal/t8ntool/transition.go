@@ -24,14 +24,14 @@ import (
 	"os"
 	"path"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/novaknole/go-ethereum/common"
+	"github.com/novaknole/go-ethereum/core"
+	"github.com/novaknole/go-ethereum/core/state"
+	"github.com/novaknole/go-ethereum/core/types"
+	"github.com/novaknole/go-ethereum/core/vm"
+	"github.com/novaknole/go-ethereum/log"
+	"github.com/novaknole/go-ethereum/params"
+	"github.com/novaknole/go-ethereum/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

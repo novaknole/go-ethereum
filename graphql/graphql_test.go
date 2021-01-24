@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/novaknole/go-ethereum/consensus/ethash"
+	"github.com/novaknole/go-ethereum/core"
+	"github.com/novaknole/go-ethereum/eth"
+	"github.com/novaknole/go-ethereum/node"
+	"github.com/novaknole/go-ethereum/params"
 )
 
 func TestBuildSchema(t *testing.T) {

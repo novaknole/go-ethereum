@@ -23,9 +23,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/novaknole/go-ethereum/common"
+	"github.com/novaknole/go-ethereum/ethdb/memorydb"
+	"github.com/novaknole/go-ethereum/trie"
 )
 
 type kv struct {

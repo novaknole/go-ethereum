@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/novaknole/go-ethereum/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/ethereum/go-ethereum
+go_import_path: github.com/novaknole/go-ethereum
 sudo: false
 jobs:
   allow_failures:
@@ -27,13 +27,13 @@ jobs:
     # This builder does the Ubuntu PPA upload
     - stage: build
       if: type = push
-      os: linux
-      dist: xenial
-      go: 1.15.x
-      env:
-        - ubuntu-ppa
-        - GO111MODULE=on
-      git:
+  github.com/novaknole
+  github.com/novaknole
+  github.com/novaknole
+  github.com/novaknole
+  github.com/novaknole
+  github.com/novaknole=on
+  github.com/novaknole
         submodules: false # avoid cloning ethereum/tests
       addons:
         apt:
@@ -149,8 +149,8 @@ jobs:
         - unzip -q android-ndk-r19b.zip && rm android-ndk-r19b.zip
         - mv android-ndk-r19b $ANDROID_HOME/ndk-bundle
 
-        - mkdir -p $GOPATH/src/github.com/ethereum
-        - ln -s `pwd` $GOPATH/src/github.com/ethereum/go-ethereum
+        - mkdir -p $GOPATH/src/github.com/novaknole
+        - ln -s `pwd` $GOPATH/src/github.com/novaknole/go-ethereum
         - go run build/ci.go aar -signer ANDROID_SIGNING_KEY -signify SIGNIFY_KEY  -deploy https://oss.sonatype.org -upload gethstore/builds
 
     # This builder does the OSX Azure, iOS CocoaPods and iOS Azure uploads
